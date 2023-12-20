@@ -387,6 +387,11 @@ public class ReusableMethods {
         Driver.getDriver().findElement(By.xpath("//*[text()='" + value + "']")).click();
     }
 
+
+
+
+
+
     public static void scrollDown(WebDriver driver) {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
@@ -396,6 +401,7 @@ public class ReusableMethods {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView(true);", element);
     }
+
 
 
 }

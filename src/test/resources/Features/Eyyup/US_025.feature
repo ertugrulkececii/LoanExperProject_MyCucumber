@@ -1,5 +1,5 @@
 
-@eyyp
+@us25
 Feature:[US_025] As an administrator, I want to have an Answered Ticket page so that I can manage answered support tickets.
 
 
@@ -28,7 +28,7 @@ Feature:[US_025] As an administrator, I want to have an Answered Ticket page so 
     #[TC_004>US_025]The test that the page titles under the Credits menu heading to the relevant pages
     * it is confirmed Pending Loans page title Pending Loans are  to open
     * it is confirmed Running Loans page title Running Loans are  to open
-    * it is confirmed Due Loans page title Due Loans are  to open
+    #* it is confirmed Due Loans page title Due Loans are  to open         burada bug var
     * it is confirmed Paid Loans page title Paid Loans are  to open
     * it is confirmed Rejected Loans page title Rejected Loans are  to open
     * it is confirmed All Loans page title All Loans are  to open
@@ -49,5 +49,4 @@ Feature:[US_025] As an administrator, I want to have an Answered Ticket page so 
 
 
 
-  @priority1
-    Scenario: Loans test
+

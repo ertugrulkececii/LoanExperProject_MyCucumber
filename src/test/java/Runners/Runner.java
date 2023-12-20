@@ -4,7 +4,7 @@ package Runners;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
-  
+
 @RunWith(Cucumber.class)
 @CucumberOptions(
           
@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/Features",
         glue = "StepDefinitions",
-        tags = "@nec",
+        tags = "@ert",
           
         dryRun = false
           
