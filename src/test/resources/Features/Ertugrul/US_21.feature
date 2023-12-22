@@ -6,7 +6,7 @@ Feature:  The registered user must be able to access the website from the browse
 
     Given go to "homePageURL"
     Then  Test access to the website with the given URL
-    #And   close page
+    And   close page
 
     Scenario: [TC_002] Activation test of Contact information and Links in the home page top bar
       Given go to "homePageURL"

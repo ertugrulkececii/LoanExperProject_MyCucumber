@@ -51,7 +51,7 @@ public class adminPanelStepDefinitions {
 
     @And("enter the valid admin password in the passwordBox")
     public void enterTheValidAdminPasswordInThePasswordBox() {
-        adminPanel.passwordBox.sendKeys(ConfigReader.getProperty("adminPassword"));
+        adminPanel.passwordBox.sendKeys(ConfigReader.getProperty("newAdminPassword"));
     }
 
     @And("click login on admin login page button")
@@ -142,5 +142,31 @@ public class adminPanelStepDefinitions {
     @And("click password button")
     public void clickPasswordButton() {
         adminPanel.passwordButton.click();
+    }
+
+    @And("enter {string} in the passwordBox")
+    public void enterInThePasswordBox(String password) {
+        adminPanel.passwordBoxOnPasswordSettingsPage.sendKeys(ConfigReader.getProperty(password));
+    }
+
+    @And("enter {string} in the newPasswordBox")
+    public void enterInTheNewPasswordBox(String newPassword) {
+        adminPanel.newPasswordBox.sendKeys(ConfigReader.getProperty(newPassword));
+    }
+
+    @And("enter {string} in the conformPasswordBox")
+    public void enterInTheConformPasswordBox(String newPassword) {
+        adminPanel.confirmPasswordBox.sendKeys(ConfigReader.getProperty(newPassword));
+    }
+
+
+    @And("click submit button on admin password page")
+    public void clickSubmitButtonOnAdminPasswordPage() {
+        adminPanel.submitButtonOnProfilePage.click();
+    }
+
+    @And("click logout button")
+    public void clickLogoutButton() {
+        adminPanel.logoutButton.click();
     }
 }

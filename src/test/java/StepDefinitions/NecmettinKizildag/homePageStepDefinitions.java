@@ -48,6 +48,7 @@ public class homePageStepDefinitions {
     @And("close page")
     public void closePage() {
         Driver.closeDriver();
+        ReusableMethods.wait(2);
     }
 
     @And("scroll down the page until the login form appears")

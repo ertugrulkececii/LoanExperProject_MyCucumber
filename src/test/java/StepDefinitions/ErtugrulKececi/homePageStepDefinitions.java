@@ -30,8 +30,9 @@ public class homePageStepDefinitions {
     }
     @Then("Verify that the About banner on the top bar of the home page is visible and clickable.")
     public void verify_that_the_about_banner_on_the_top_bar_of_the_home_page_is_visible_and_clickable() {
-        ReusableMethods.wait(3);
+        ReusableMethods.wait(2);
         userPanel userPanel= new userPanel();
+        ReusableMethods.wait(1);
         userPanel.AllowYaziElementi.click();
 
         Assert.assertTrue(homePage.headerAboutButton.isDisplayed());

@@ -26,11 +26,6 @@ public class userPanelStepDefinitions {
     }
     @Then("Click on the Login button.")
     public void click_on_the_login_button() {
-        //JavascriptExecutor jse = (JavascriptExecutor) Driver.getDriver();
-        //ReusableMethods.wait(2);
-        //jse.executeScript("arguments[0].scrollIntoView(true);",homePage.AllowYaziElementi);
-        //ReusableMethods.wait(2);
-        //jse.executeScript("arguments[0].click();",homePage.AllowYaziElementi);
         ReusableMethods.wait(2);
         userPanel.AllowYaziElementi.click();
         ReusableMethods.wait(2);

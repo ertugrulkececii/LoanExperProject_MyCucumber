@@ -72,15 +72,21 @@ public class homePageStepDefinitions {
 
     }
 
-   /* @Given("user clicks on the logo on the top bar of the homepage, it switches to the homepage")
+    @Given("user clicks on the logo on the top bar of the homepage, it switches to the homepage")
     public void user_clicks_on_the_logo_on_the_top_bar_of_the_homepage_it_switches_to_the_homepage() {
         homePage.loanTechLogo.click();
-        Assert.assertTrue(homePage.homePageContentText.isDisplayed());
-        String homePageContentText = homePage.homePageContentText.getText();
-        System.out.println(homePageContentText);
-        Assert.assertTrue(homePageContentText.contains("One Loan at a Time"));
+       // Assert.assertTrue(homePage.homePageContentText.isDisplayed());
+        //String homePageContentText = homePage.homePageContentText.getText();
+        //System.out.println(homePageContentText);
+        //Assert.assertTrue(homePageContentText.contains("One Loan at a Time"));
 
 
-    }*/
+    }
 
-}
+       // Driver.closeDriver();
+    }
+
+
+
+
+

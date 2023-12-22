@@ -7,5 +7,5 @@ Feature: [US_014] As a registered user, I want to be able to access and update m
     * user clicks on the login button and enters the system with the registered "validUserName" and "validPassword"
     * displays user profile information and updates first and last name
     * user uploads profile picture
-    * user registers a non-numeric zip code and receives an error message
+    * user registers a "non-numeric zip code" and receives an error message
     * displays successful registration when the user enters the required informations

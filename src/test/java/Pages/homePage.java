@@ -212,6 +212,9 @@ public class homePage {
     @FindBy(xpath = "//*[@href='user/register']")
     public WebElement getStartedLogoOnHomePage;
 
+    @FindBy(xpath = "//*[@class='hero__content-title text-capitalize t-text-white']")
+    public WebElement homePageContentText;
+
     // OmerKAYA
 
 
